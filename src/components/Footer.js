@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render(){
     return(
-      <footer className="parallax-section">
+      <footer className="parallax-section" id="footer-contact">
 	<div className="container">
 		<div className="row">
 			<div className="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">

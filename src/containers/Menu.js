@@ -14,7 +14,7 @@ class Menu extends Component {
   render(){
     const renderMenuItem = this.props.items.map((m)=>{
       return (
-        <div key={m.id} className="col-md-6 col-sm-6">
+        <div key={m.id} className="col-md-6 col-sm-6" id="menu">
           <h4> {this.completeChaine(m.name)} <span> {m.price} €</span></h4>
           <h5>{m.name}</h5>
         </div>
