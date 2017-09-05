@@ -5,7 +5,7 @@ class Food extends Component {
   render(){
     const renderFood = this.props.food.map((f)=>{
       return (
-          <div key={f.id} className="col-md-3 col-sm-3 wow fadeInUp food-item" data-wow-delay="0.3s">
+          <div key={f.id} className="col-md-3 col-sm-3 col-xd-3 wow fadeInUp food-item" data-wow-delay="0.3s">
             <a href={f.img} data-lightbox-gallery="zenda-gallery"><img src={f.img} alt="gallery img"/></a>
             <div>
     					<h3>{f.name}</h3>
