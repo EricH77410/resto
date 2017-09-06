@@ -7,8 +7,8 @@ class Menu extends Component {
     while (taille < max) {
       s += ' .';
       taille = s.length;
-      console.log(taille)
     }
+    console.log(s,s.length)
     return s;
   }
   render(){
@@ -26,7 +26,7 @@ class Menu extends Component {
 	        <div className="container">
 		        <div className="row">
 			        <div className="col-md-offset-2 col-md-8 col-sm-12 text-center">
-				        <h1 className="heading">Special Menu</h1>
+				        <h1 className="heading">Au Menu</h1>
 				        <hr />
 			        </div>
 			          {renderMenuItem}

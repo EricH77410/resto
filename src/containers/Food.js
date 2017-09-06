@@ -19,7 +19,7 @@ class Food extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-offset-2 col-md-8 col-sm-12 text-center">
-                <h1 className="heading">Food Gallery</h1>
+                <h1 className="heading">Nos Produits</h1>
                 <hr/>
             </div>
               {renderFood}

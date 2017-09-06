@@ -15,10 +15,11 @@ class Header extends Component {
       		</div>
       		<div className="collapse navbar-collapse">
       			<ul className="nav navbar-nav navbar-right">
-      				<li><a href="#home" className="smoothScroll">HOME</a></li>
-      				<li><a href="#gallery" className="smoothScroll">FOOD GALLERY</a></li>
-      				<li><a href="#menu" className="smoothScroll">SPECIAL MENU</a></li>
+      				<li><a href="#home" className="smoothScroll">ACCEUIL</a></li>
+      				<li><a href="#gallery" className="smoothScroll">PRODUITS</a></li>
+      				<li><a href="#menu" className="smoothScroll">MENU</a></li>
       				<li><a href="#footer-contact" className="smoothScroll">CONTACT</a></li>
+              <li><a href="#log" className="smoothScroll" id="log-button">CONNEXION</a></li>
       			</ul>
       		</div>
       	</div>
